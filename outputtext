@@ -1,0 +1,52 @@
+timestamp:2016-08-22 15:50:30
+cpu:scputimes(user=1120.82, nice=19.44, system=125.48, idle=13591.06, iowait=182.14, irq=3.21, softirq=4.39, steal=0.0, guest=0.0)
+virtual_memory:svmem(total=1968287744, available=867946496, percent=55.9, used=1861750784, free=106536960, active=844906496, inactive=879706112, buffers=20942848, cached=740466688, shared=7110656)
+disk_usage:sdiskusage(total=18699583488, used=3772219392, free=13970644992, percent=21.3)
+IO:sdiskio(read_count=50053, write_count=607682, read_bytes=1001237504, write_bytes=4740686848, read_time=599877, write_time=365839782, read_merged_count=7688, write_merged_count=549748, busy_time=463162)
+network:snetio(bytes_sent=6342376, bytes_recv=477342210, packets_sent=101058, packets_recv=336438, errin=0, errout=0, dropin=0, dropout=0)
+timestamp:2016-08-22 15:51:43
+cpu:scputimes(user=1129.98, nice=19.44, system=126.22, idle=13724.24, iowait=182.37, irq=3.22, softirq=4.41, steal=0.0, guest=0.0)
+virtual_memory:svmem(total=1968287744, available=874356736, percent=55.6, used=1855451136, free=112836608, active=838467584, inactive=879800320, buffers=21057536, cached=740462592, shared=7110656)
+disk_usage:sdiskusage(total=18699583488, used=3772231680, free=13970632704, percent=21.3)
+IO:sdiskio(read_count=50053, write_count=608564, read_bytes=1001237504, write_bytes=4746634240, read_time=599877, write_time=365842288, read_merged_count=7688, write_merged_count=550315, busy_time=463929)
+network:snetio(bytes_sent=6342376, bytes_recv=477342463, packets_sent=101058, packets_recv=336439, errin=0, errout=0, dropin=0, dropout=0)
+Snapshot0timestamp:2016-08-22 15:53:17
+Snapshot1cpu:scputimes(user=1150.73, nice=19.44, system=127.85, idle=13883.18, iowait=182.68, irq=3.24, softirq=4.45, steal=0.0, guest=0.0)
+Snapshot2virtual_memory:svmem(total=1968287744, available=873091072, percent=55.6, used=1856872448, free=111415296, active=839163904, inactive=879919104, buffers=21196800, cached=740478976, shared=7110656)
+Snapshot3disk_usage:sdiskusage(total=18699583488, used=3772239872, free=13970624512, percent=21.3)
+Snapshot4IO:sdiskio(read_count=50053, write_count=610563, read_bytes=1001237504, write_bytes=4761445376, read_time=599877, write_time=365878443, read_merged_count=7688, write_merged_count=551931, busy_time=464816)
+Snapshot5network:snetio(bytes_sent=6342376, bytes_recv=477342463, packets_sent=101058, packets_recv=336439, errin=0, errout=0, dropin=0, dropout=0)
+Snapshot0timestamp:2016-08-22 15:55:05
+cpu:scputimes(user=1162.7, nice=19.44, system=128.85, idle=14082.14, iowait=183.31, irq=3.26, softirq=4.47, steal=0.0, guest=0.0)
+virtual_memory:svmem(total=1968287744, available=872136704, percent=55.7, used=1858490368, free=109797376, active=840146944, inactive=880463872, buffers=21307392, cached=741031936, shared=7110656)
+disk_usage:sdiskusage(total=18699583488, used=3772243968, free=13970620416, percent=21.3)
+IO:sdiskio(read_count=50181, write_count=612646, read_bytes=1002335232, write_bytes=4777018368, read_time=600648, write_time=365908791, read_merged_count=7688, write_merged_count=553648, busy_time=466819)
+network:snetio(bytes_sent=6343785, bytes_recv=477352235, packets_sent=101073, packets_recv=336456, errin=0, errout=0, dropin=0, dropout=0)
+Snapshot0
+timestamp:2016-08-22 15:55:52
+cpu:scputimes(user=1172.49, nice=19.44, system=129.46, idle=14163.73, iowait=183.53, irq=3.27, softirq=4.49, steal=0.0, guest=0.0)
+virtual_memory:svmem(total=1968287744, available=871751680, percent=55.7, used=1859022848, free=109264896, active=840556544, inactive=880635904, buffers=21372928, cached=741113856, shared=7110656)
+disk_usage:sdiskusage(total=18699583488, used=3772248064, free=13970616320, percent=21.3)
+IO:sdiskio(read_count=50201, write_count=614474, read_bytes=1002540032, write_bytes=4790887424, read_time=601100, write_time=365983907, read_merged_count=7694, write_merged_count=555204, busy_time=467735)
+network:snetio(bytes_sent=6343845, bytes_recv=477352295, packets_sent=101074, packets_recv=336457, errin=0, errout=0, dropin=0, dropout=0)
+snapshot:Snapshot1
+timestamp:2016-08-22 18:24:56
+cpu:scputimes(user=2373.52, nice=19.58, system=240.44, idle=30245.14, iowait=320.74, irq=5.2, softirq=8.05, steal=0.0, guest=0.0)
+virtual_memory:svmem(total=1968287744, available=604229632, percent=69.3, used=1804980224, free=163307520, active=1097801728, inactive=572706816, buffers=27885568, cached=413036544, shared=21368832)
+disk_usage:sdiskusage(total=18699583488, used=4046569472, free=13696294912, percent=22.8)
+IO:sdiskio(read_count=103575, write_count=891045, read_bytes=2490694656, write_bytes=6837036032, read_time=1273134, write_time=399047269, read_merged_count=15346, write_merged_count=778488, busy_time=825509)
+network:snetio(bytes_sent=9539253, bytes_recv=545426879, packets_sent=129897, packets_recv=396434, errin=0, errout=0, dropin=0, dropout=0)
+snapshot:Snapshot2
+timestamp:2016-08-22 18:25:01
+cpu:scputimes(user=2373.58, nice=19.58, system=240.46, idle=30255.03, iowait=320.78, irq=5.2, softirq=8.05, steal=0.0, guest=0.0)
+virtual_memory:svmem(total=1968287744, available=604160000, percent=69.3, used=1805066240, free=163221504, active=1097949184, inactive=572723200, buffers=27893760, cached=413044736, shared=21368832)
+disk_usage:sdiskusage(total=18699583488, used=4046577664, free=13696286720, percent=22.8)
+IO:sdiskio(read_count=103577, write_count=891145, read_bytes=2490702848, write_bytes=6837707776, read_time=1273200, write_time=399047287, read_merged_count=15346, write_merged_count=778552, busy_time=825593)
+network:snetio(bytes_sent=9539253, bytes_recv=545426879, packets_sent=129897, packets_recv=396434, errin=0, errout=0, dropin=0, dropout=0)
+snapshot:Snapshot3
+timestamp:2016-08-22 18:25:06
+cpu:scputimes(user=2373.73, nice=19.58, system=240.48, idle=30264.74, iowait=320.78, irq=5.2, softirq=8.05, steal=0.0, guest=0.0)
+virtual_memory:svmem(total=1968287744, available=603770880, percent=69.3, used=1805463552, free=162824192, active=1098354688, inactive=572727296, buffers=27901952, cached=413044736, shared=21368832)
+disk_usage:sdiskusage(total=18699583488, used=4046577664, free=13696286720, percent=22.8)
+IO:sdiskio(read_count=103577, write_count=891158, read_bytes=2490702848, write_bytes=6837781504, read_time=1273200, write_time=399047303, read_merged_count=15346, write_merged_count=778557, busy_time=825606)
+network:snetio(bytes_sent=9540260, bytes_recv=545435992, packets_sent=129910, packets_recv=396449, errin=0, errout=0, dropin=0, dropout=0)
