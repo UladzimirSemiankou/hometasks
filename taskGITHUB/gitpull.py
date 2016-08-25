@@ -25,10 +25,11 @@ class Github_statistics:
         keys.add_argument("--lines-add", action = "store_true", help = "number of lines added")
         keys.add_argument("--lines-deleted", action = "store_true", help = "number of lines deleted")
         keys.add_argument("--after", type = str, help = "only pull requests opened after this date")
+        keys.add_argument("authtoken", metavar="authtoken", type=str, nargs=1, help='github authtoken')
         keys.add_argument("user", metavar = "user", type = str, nargs = 1, help = 'github user')
         keys.add_argument("repo", metavar = "repo", type = str, nargs = 1, help = 'github repo')
         self._args = keys.parse_args()
-        self.AUTH_TOKEN = "1375def973ae56919411cb5cc92cbe4546b855ae"
+        self.AUTH_TOKEN = self._args.authtoken[0]
         self.pull_requests = self.get_pull_requests()
         self.issues_pulls = self._get_issues()
         self.comments_list = self._get_Comments()
